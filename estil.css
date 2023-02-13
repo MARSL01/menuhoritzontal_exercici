@@ -34,7 +34,7 @@ list-style: none;
 }
 nav li { /*també*/
 background-color: rgb(240, 96, 13);
-margin-bottom: none; /*això deixa espai entre els buttons i crea l'efecte de les linies*/
+margin-bottom: 0px; /*això deixa espai entre els buttons i crea l'efecte de les linies*/
 position: relative;
 }
 nav a {
