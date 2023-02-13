@@ -27,14 +27,14 @@ header h1 { /*posem l'estil del text del header*/
 nav { /*estil del quadrat del centre */
   width: 300px;
   margin: 100px auto;
-  text-align: center;
+  text-align: left;
 }
 nav ul {
 list-style: none;
 }
 nav li { /*també*/
 background-color: rgb(240, 96, 13);
-margin-bottom: 1px; /*això deixa espai entre els buttons i crea l'efecte de les linies*/
+margin-bottom: none; /*això deixa espai entre els buttons i crea l'efecte de les linies*/
 position: relative;
 }
 nav a {
