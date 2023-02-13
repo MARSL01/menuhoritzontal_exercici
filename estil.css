@@ -33,7 +33,7 @@ nav { /*estil del quadrat del centre */
   text-align: center;
   position: relative; /*posició relativa necessaria per poder fer el left i top*/
   left: -500px;
-  top:-55px;
+  top:-60px;
 }
 nav ul {
 list-style: none;
