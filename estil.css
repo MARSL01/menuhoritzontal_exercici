@@ -12,6 +12,11 @@ body{
 a:hover{ /*Triem el color i comfigurem que quan passem per sobre es torni cyan, com un link*/
 color: cyan;
 }
+a:active {
+  background: rgb(0, 64, 255);
+  color: #000000;
+}
+
 a:link { /*Treiem la linia del link*/
   text-decoration: none;
 }
@@ -20,6 +25,7 @@ header { /*creem el header, posem color, paadding i centrat */
   background-color: rgb(240, 96, 13);
   padding: 40px;
   text-align: center;
+  margin: 20px;
 }
 header h1 { /*posem l'estil del text del header*/
   color: rgb(0, 0, 0);
@@ -32,7 +38,7 @@ nav { /*estil del quadrat del centre */
   margin: 100px auto;
   text-align: center;
   position: relative; /*posició relativa necessaria per poder fer el left i top*/
-  left: -500px;
+  left: -580px;
   top:-60px;
 }
 nav ul {
