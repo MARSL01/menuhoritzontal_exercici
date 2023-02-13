@@ -27,7 +27,7 @@ header h1 { /*posem l'estil del text del header*/
 nav { /*estil del quadrat del centre */
   width: 300px;
   margin: 100px auto;
-  text-align: left;
+  text-align: center;
 }
 nav ul {
 list-style: none;
